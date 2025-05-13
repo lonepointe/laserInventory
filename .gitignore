@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Editor files (optional but smart)
+.vscode/
+.idea/
+
+# MacOS junk
+.DS_Store
+
+# Logs and other junk
+*.log
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations (optional - for early dev)
+# Uncomment if you want to avoid committing migrations early on:
+# */migrations/*.py
+# !*/migrations/__init__.py
